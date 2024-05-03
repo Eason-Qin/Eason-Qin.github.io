@@ -1,0 +1,253 @@
+---
+title: "FSDiffReg"
+collection: projects
+type: "Projects"
+permalink: /projects/FSDiffReg
+---
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Meta tags for search engines to crawl -->
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="Project Page: 	
+    FSDiffReg: Feature-wise and Score-wise Diffusion-guided Unsupervised Deformable Image Registration for Cardiac Images">
+    <!-- <meta name="keywords" content="msim-to-real adaptation, object pose estimation, self-training, robotic bin picking"> -->
+    <meta name="author" content="Yi Qin, Xiaomeng Li">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="assets/public/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="assets/public/css/fontawesome.all.min.css">
+    <script defer src="assets/public/js/fontawesome.all.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link href="assets/public/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="headline">
+        <div class="container">
+                <div class="row">
+                    <!-- <div class="col-md-1 sim2real align-self-center">
+                        <a href="../index.html">
+                            <img src="assets/Sim-to-Real/cuhk.png" style="float:left; margin-left:-100px;">
+                        </a>
+                    </div>&nbsp; -->
+                    <div class="col-md-12 text align-self-center">
+                        <div class="title">	
+                            FSDiffReg: Feature-wise and Score-wise Diffusion-guided Unsupervised Deformable Image Registration for Cardiac Images
+                        </div>
+                        <div class="venue">
+                            26th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)
+                        </div><br>
+                        <div class="author">
+                            <a href="https://eason-qin.github.io/" target="_blank"> Yi Qin<sup>1</sup></a>
+                            <a href="https://xmengli.github.io/" target="_blank"> Xiaomeng Li<sup>1</sup></a> 
+                        </div>
+                        <div class="affiliation">
+                            <sup>1</sup><a href = "https://ece.hkust.edu.hk/" target="_blank"> Hong Kong University of Science and Technology </a> &nbsp; &nbsp;
+                        </div>
+                        <!--<div class="venue">
+                            <a href = "https://eccv2022.ecva.net/" target="_blank"> European Conference on Computer Vision (ECCV) 2022 </a>, Tel-Aviv, Israel
+                        </div>-->
+                    </div>
+                </div>
+            <!-- </div> -->
+        </div>
+    </div>
+
+    <div class="column has-text-centered">
+        <div class="publication-links">
+          <!-- PDF Link. -->
+          <span class="link-block">
+            <a href="https://arxiv.org/pdf/2307.12035.pdf"
+              class="external-link button is-normal is-rounded is-dark" target="_blank">
+              <span class="icon">
+                <i class="ai ai-arxiv"></i>
+              </span>
+              <span>arXiv</span>
+            </a>
+          </span>
+          <!-- Code Link. -->
+          <span class="link-block">
+            <a href="https://github.com/xmed-lab/FSDiffReg"
+              class="external-link button is-normal is-rounded is-dark" target="_blank">
+              <span class="icon">
+                <i class="fab fa-github"></i>
+              </span>
+              <span>Code</span>
+            </a>
+          </span>
+          <!-- Video Link. -->
+          <!-- <span class="link-block">
+            <a href="https://youtu.be/YwhaJUk_qo0" class="external-link button is-normal is-rounded is-dark"
+              target="_blank">
+              <span class="icon">
+                <i class="fab fa-youtube"></i>
+              </span>
+              <span>Video</span>
+            </a>
+          </span> -->
+
+          <!-- Dataset Link. -->
+          <!-- <span class="link-block">
+            <a class="external-link button is-normal is-rounded is-dark" target="_blank">
+              <span class="icon">
+                <i class="far fa-images"></i>
+              </span>
+              <span>Data (Coming Soon)</span>
+            </a> -->
+        </div>
+
+    </div>
+
+    <div class="container article-main">
+        <div class="pic-wrapper-1">
+            <br>
+            <img src="assets/fsdiffreg/mainfigure.png">
+        </div>
+
+        <div class="section dashed">
+            <h4>Abstract</h4>
+            <div class="abstract justify-text-between">
+                Unsupervised deformable image registration is one of the challenging tasks in medical imaging. Obtaining a high-quality deformation field while preserving deformation topology remains demanding amid a series of deep-learning-based solutions. Meanwhile, the diffusion model's latent feature space shows potential in modeling the deformation semantics. To fully exploit the diffusion model's ability to guide the registration task, we present two modules: Feature-wise Diffusion-Guided Module (FDG) and Score-wise Diffusion-Guided Module (SDG). Specifically, FDG uses the diffusion model's multi-scale semantic features to guide the generation of the deformation field. SDG uses the diffusion score to guide the optimization process for preserving deformation topology with barely any additional computation. Experiment results on the 3D medical cardiac image registration task validate our model's ability to provide refined deformation fields with preserved topology effectively.
+            </div>
+        </div>
+
+        
+
+
+
+        <!-- <div class="section dashed">
+            <h4>Video</h4>
+            <center>
+                <video width="800" height="520" autoplay="autoplay" controls="controls">
+                    <source src="assets/Sim-to-Real/Sim-to-Real.mp4" type="video/mp4"></source>
+                </video> 
+            </center>
+        </div> -->
+
+        <!-- <div class="section dashed">
+            <h4>Results</h4>
+            <center>
+                <img class="bannerImage" src="./assets/Sim-to-Real/qualitative1.png" ,="" width="700" vspace="0">
+                <table style="border:hidden;" width="700" align="center"><tbody><tr><td><p class="figureTitleText" style=" margin-top:-10px">
+                    Figure 1. Qualitative comparisons on ROBI dataset.
+                    The 6D object pose estimation results are depicted by projecting the object model onto the image plane using the object pose and camera intrinsic parameters.
+                    DC-Net is our baseline model w/o our proposed self-training. Colored points denote the projected object model (best viewed in color).
+                </p></td></tr></tbody></table>
+            </center>
+            <br>
+            <center>
+                <img class="bannerImage" src="./assets/Sim-to-Real/qualitative2.png" ,="" width="700"><br>
+                <table style="border:hidden;" width="700" align="center"><tbody><tr><td><p class="figureTitleText" style=" margin-top:-10px">
+                    Figure 2. Qualitative comparisons on SIBP dataset.
+                </p></td></tr></tbody></table>
+            </center>
+            <br>
+            <center>
+                <img class="bannerImage" src="./assets/Sim-to-Real/qualitative3.png" ,="" width="700"><br>
+                <table style="border:hidden;" width="700" align="center"><tbody><tr><td><p class="figureTitleText" style=" margin-top:-10px">
+                    Figure 3. Object pose estimation results of iterative self-training model.
+                    Top: The average recall of ADD(-S) metric on ROBI dataset with different number of iterations. 
+                    Bottom: Qualitative results. (a)(d) are ground-truth results. (b)(e) are results of one-time self-training. 
+                    (c)(f) are results of five-time iterative self-training.
+                </p></td></tr></tbody></table>
+            </center>
+        </div> -->
+
+        <!-- <div class="section dashed">
+            <h4>Demonstration on Real Robot</h4>
+            <div class="row">
+                <div class="col-md-6 sim2real align-self-center">
+                    <center>
+                        <video width="450" height="300" autoplay="autoplay" controls="controls">
+                            <source src="assets/Sim-to-Real/demo1-1x5.mp4" type="video/mp4"></source>
+                        </video>
+                        <table style="border:hidden;" align="left"><tbody><tr><td><p class="figureTitleText" style=" margin-top:5px">
+                            Robotic bin picking demo#1 <span style="color:hsla(0,100%,50%,1);">w/o</span> proposed self-training.
+                        </p></td></tr></tbody></table>
+                    </center>
+                </div>
+                <div class="col-md-6 sim2real align-self-center">
+                    <center>
+                        <video width="450" height="300" autoplay="autoplay" controls="controls">
+                            <source src="assets/Sim-to-Real/demo2-1x5.mp4" type="video/mp4"></source>
+                        </video>
+                        <table style="border:hidden;" align="left"><tbody><tr><td><p class="figureTitleText" style=" margin-top:5px">
+                            Robotic bin picking demo#1 <span style="color:hsla(0,100%,50%,1);">w/</span> proposed self-training.
+                        </p></td></tr></tbody></table>
+                    </center>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 sim2real align-self-center">
+                    <center>
+                        <video width="450" height="300" autoplay="autoplay" controls="controls">
+                            <source src="assets/Sim-to-Real/demo1-2x5.mp4" type="video/mp4"></source>
+                        </video>
+                        <table style="border:hidden;" align="left"><tbody><tr><td><p class="figureTitleText" style=" margin-top:5px">
+                            Robotic bin picking demo#2 <span style="color:hsla(0,100%,50%,1);">w/o</span> proposed self-training.
+                        </p></td></tr></tbody></table>
+                    </center>
+                </div>
+                <div class="col-md-6 sim2real align-self-center">
+                    <center>
+                        <video width="450" height="300" autoplay="autoplay" controls="controls">
+                            <source src="assets/Sim-to-Real/demo2-2x5.mp4" type="video/mp4"></source>
+                        </video>
+                        <table style="border:hidden;" align="left"><tbody><tr><td><p class="figureTitleText" style=" margin-top:5px">
+                            Robotic bin picking demo#2 <span style="color:hsla(0,100%,50%,1);">w/</span> proposed self-training.
+                        </p></td></tr></tbody></table>
+                    </center>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 sim2real align-self-center">
+                    <center>
+                        <video width="450" height="300" autoplay="autoplay" controls="controls">
+                            <source src="assets/Sim-to-Real/demo1-3x5.mp4" type="video/mp4"></source>
+                        </video>
+                        <table style="border:hidden;" align="left"><tbody><tr><td><p class="figureTitleText" style=" margin-top:5px">
+                            Robotic bin picking demo#3 <span style="color:hsla(0,100%,50%,1);">w/o</span> proposed self-training.
+                        </p></td></tr></tbody></table>
+                    </center>
+                </div>
+                <div class="col-md-6 sim2real align-self-center">
+                    <center>
+                        <video width="450" height="300" autoplay="autoplay" controls="controls">
+                            <source src="assets/Sim-to-Real/demo2-3x5.mp4" type="video/mp4"></source>
+                        </video>
+                        <table style="border:hidden;" align="left"><tbody><tr><td><p class="figureTitleText" style=" margin-top:5px">
+                            Robotic bin picking demo#3 <span style="color:hsla(0,100%,50%,1);">w/</span> proposed self-training.
+                        </p></td></tr></tbody></table>
+                    </center>
+                </div>
+            </div>
+        </div> -->
+        <div class="section dashed">
+            <h4>Citation</h4>
+            <div class="code-light-bg">
+                <pre><code>
+</code></pre>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+<script type="text/javascript " src="../js/jquery.min.js "></script>
+
+</html>
