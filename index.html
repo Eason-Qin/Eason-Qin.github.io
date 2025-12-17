@@ -109,21 +109,18 @@
                   >
                     <h2>Research</h2>
                     <p>
-                      My research interests lie at the intersection of machine
-                      intelligence and digital healthcare, with a particular
-                      interest on echocardiography and cardiology. Specific
+                      My research focuses on leveraging generative models to enhance the quality and trustworthiness of digital healthcare, with a particular emphasis on cardiology and echocardiography. Specific
                       interested topics include:
                     </p>
                     <ul>
-                      <li>Diffusion-based Generative Model</li>
                       <li>
-                        Trustworthy/Explainable ML (Energy-based Concept-based
+                        Multi-Modal Large Language Model / Foundation Model for Disease Diagnosis/Prognosis
+                      </li>
+                      <li>
+                        Trustworthy/Explainable DL (Energy-based Concept-based
                         models)
                       </li>
-                      <li>
-                        Foundation Model (FM) based Disease Diagnosis/Prognosis
-                        Prediction
-                      </li>
+                      <li>Diffusion-based Generative Model</li>
                     </ul>
                   </td>
                 </tr>
@@ -134,47 +131,18 @@
               "*" indicates equal contribution, "_" indicates equal advising.
             </p>
 
+            <!-- Cardiology Section -->
             <table
-              style="
-                width: 100%;
-                border: 0px;
-                border-spacing: 0px;
-                border-collapse: separate;
-                margin-right: auto;
-                margin-left: auto;
-              "
+              width="100%"
+              align="center"
+              border="0"
+              cellspacing="0"
+              cellpadding="20"
             >
               <tbody>
                 <tr>
-                  <td style="padding: 20px; width: 25%; vertical-align: middle">
-                    <img
-                      src="./images/ECBM.png"
-                      alt="b3do"
-                      width="160"
-                      style="border-style: none"
-                    />
-                  </td>
-                  <td width="75%" valign="middle">
-                    <a href="https://openreview.net/forum?id=I1quoTXZzc">
-                      <span class="papertitle"
-                        >Energy-Based Concept Bottleneck Models: Unifying
-                        Prediction, Concept Intervention, and Conditional
-                        Interpretations</span
-                      >
-                    </a>
-                    <br />
-                    Xinyue Xu, <strong>Yi Qin</strong>, Lu Mi, <u>Hao Wang</u>,
-                    <u>Xiaomeng Li</u>
-                    <br />
-                    <em>ICLR</em>, 2024
-                    <br />
-                    <a href="https://github.com/xmed-lab/ECBM">Codes</a>
-                    <p>
-                      We introduce Energy-Based Concept Bottleneck Models (ECBM)
-                      as a unified framework for concept-based prediction,
-                      concept correction, and fine-grained interpretations based
-                      on conditional probabilities.
-                    </p>
+                  <td>
+                    <h3>Cardiology</h3>
                   </td>
                 </tr>
               </tbody>
@@ -283,9 +251,8 @@
                 </tr>
               </tbody>
             </table>
-
-            <!-- NEW -->
-            <table
+          
+          <table
               style="
                 width: 100%;
                 border: 0px;
@@ -354,7 +321,7 @@
                 <tr>
                   <td style="padding: 20px; width: 25%; vertical-align: middle">
                     <img
-                      src="./images/CVGDiff.png"
+                      src="./images/medrwr.png"
                       alt="b3do"
                       width="160"
                       style="border-style: none"
@@ -362,28 +329,23 @@
                   </td>
                   <td width="75%" valign="middle">
                     <a
-                      href="https://papers.miccai.org/miccai-2025/paper/0033_paper.pdf"
+                      href=""
                     >
                       <span class="papertitle"
-                        >Cross-view Generalized Diffusion Model for Sparse-view
-                        CT Reconstruction</span
+                        >Proactive Reasoning-with-Retrieval Framework for Medical Multimodal Large Language Models</span
                       >
                     </a>
                     <br />
-                    Jixiang Chen, Yiqun Lin, <strong>Yi Qin</strong>, Hualiang
-                    Wang, <u>Xiaomeng Li</u>
+                    Lehan Wang, <strong>Yi Qin</strong>, Honglong Yang, <u>Xiaomeng Li</u>
                     <br />
-                    <em>MICCAI</em>, 2025
+                    Under Review
                     <br />
                     <a
-                      href="https://papers.miccai.org/miccai-2025/paper/0033_paper.pdf"
-                      >Code</a
+                      href=""
+                      >Paper</a
                     >
                     <p>
-                      We introduce CvG-Diff, a fast, high-quality sparse-view CT
-                      reconstruction method that models artifacts
-                      deterministically and introduces two novel techniques—EPCT
-                      and SPDPS—to reduce errors and improve efficiency.
+                      We propose the first Multimodal Medical Reasoning-with-Retrieval framework, which actively retrieves external knowledge by querying observed symptoms or domain-specific medical concepts during reasoning.
                     </p>
                   </td>
                 </tr>
@@ -404,83 +366,98 @@
                 <tr>
                   <td style="padding: 20px; width: 25%; vertical-align: middle">
                     <img
-                      src="./images/XMedGPT.png"
+                      src="./images/echopath.png"
                       alt="b3do"
                       width="160"
                       style="border-style: none"
                     />
                   </td>
                   <td width="75%" valign="middle">
-                    <a href="https://arxiv.org/abs/2505.06898">
+                    <a
+                      href="https://arxiv.org/abs/2509.17190"
+                    >
                       <span class="papertitle"
-                        >Multi-Modal Explainable Medical AI Assistant for
-                        Trustworthy Human-AI Collaboration</span
+                        >Echo-Path: Pathology-Conditioned Echo Video Generation.</span
                       >
                     </a>
                     <br />
-                    Honglong Yang, Shanshan Song, <strong>Yi Qin</strong>, Lehan
-                    Wang, Haonan Wang, Xinpeng Ding, Qixiang Zhang, Bodong Du,
+                    Kabir Hamzah Muhammad, Marawan Elbatel, <strong>Yi Qin</strong>, <u>Xiaomeng Li</u>
+                    <br />
+                    MICCAI Applications of Medical AI Workshop 2025
+                    <br />
+                    <a
+                      href="https://arxiv.org/abs/2509.17190"
+                      >Paper</a
+                    >
+                    <p>
+                      We propose Echo-Path,
+a novel generative framework to produce echocardiogram videos condi
+tioned on specific cardiac pathologies. Our approach introduces a pathology-conditioning mechanism
+into a state-of-the-art echo video generator, allowing the model to learn
+and control disease-specific structural and motion patterns in the heart.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- Interpretation Section -->
+            <table
+              width="100%"
+              align="center"
+              border="0"
+              cellspacing="0"
+              cellpadding="20"
+            >
+              <tbody>
+                <tr>
+                  <td>
+                    <h3>Interpretation</h3>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table
+              style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              "
+            >
+              <tbody>
+                <tr>
+                  <td style="padding: 20px; width: 25%; vertical-align: middle">
+                    <img
+                      src="./images/ECBM.png"
+                      alt="b3do"
+                      width="160"
+                      style="border-style: none"
+                    />
+                  </td>
+                  <td width="75%" valign="middle">
+                    <a href="https://openreview.net/forum?id=I1quoTXZzc">
+                      <span class="papertitle"
+                        >Energy-Based Concept Bottleneck Models: Unifying
+                        Prediction, Concept Intervention, and Conditional
+                        Interpretations</span
+                      >
+                    </a>
+                    <br />
+                    Xinyue Xu, <strong>Yi Qin</strong>, Lu Mi, <u>Hao Wang</u>,
                     <u>Xiaomeng Li</u>
                     <br />
-                    Arxiv
+                    <em>ICLR</em>, 2024
                     <br />
-                    <a href="https://arxiv.org/abs/2505.06898">Paper</a>
+                    <a href="https://github.com/xmed-lab/ECBM">Codes</a>
                     <p>
-                      We introduce XMedGPT, a multi-modal medical AI assistant
-                      that enhances clinical usability by combining accurate
-                      diagnostics with visual-text explainability and
-                      uncertainty quantification, enabling transparent and
-                      trustworthy decision-making.
-                    </p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-
-            <table
-              style="
-                width: 100%;
-                border: 0px;
-                border-spacing: 0px;
-                border-collapse: separate;
-                margin-right: auto;
-                margin-left: auto;
-              "
-            >
-              <tbody>
-                <tr>
-                  <td style="padding: 20px; width: 25%; vertical-align: middle">
-                    <img
-                      src="./images/RCMed.png"
-                      alt="b3do"
-                      width="160"
-                      style="border-style: none"
-                    />
-                  </td>
-                  <td width="75%" valign="middle">
-                    <a href="https://arxiv.org/abs/2505.03380">
-                      <span class="papertitle"
-                        >Reinforced Correlation Between Vision and Language for
-                        Precise Medical AI Assistant</span
-                      >
-                    </a>
-                    <br />
-                    Haonan Wang, Jiaji Mao, Lehan Wang, Qixiang Zhang, Marawan
-                    Elbatel, <strong>Yi Qin</strong>, Huijun Hu, Baoxun Li,
-                    Wenhui Deng, Weifeng Qin, Hongrui Li, Jialin Liang, Jun
-                    Shen, <u>Xiaomeng Li</u>
-                    <br />
-                    <em>Arxiv</em>, 2025
-                    <br />
-                    <a href="https://arxiv.org/abs/2505.03380">Paper</a>
-                    <p>
-                      We introduce RCMed, a full-stack medical AI assistant that
-                      enhances multimodal accuracy through hierarchical
-                      vision-language grounding and a self-reinforcing
-                      correlation loop. Trained on 20M samples, it excels in 165
-                      clinical tasks across 9 modalities, achieving
-                      state-of-the-art performance and strong generalization in
-                      real-world cancer diagnosis and cell segmentation.
+                      We introduce Energy-Based Concept Bottleneck Models (ECBM)
+                      as a unified framework for concept-based prediction,
+                      concept correction, and fine-grained interpretations based
+                      on conditional probabilities.
                     </p>
                   </td>
                 </tr>
@@ -573,6 +550,168 @@
                       and enabling concept inference without labels. It boosts
                       interpretability and outperforms state-of-the-art CBM and
                       domain adaptation methods.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- Digital Healthcare Section -->
+            <table
+              width="100%"
+              align="center"
+              border="0"
+              cellspacing="0"
+              cellpadding="20"
+            >
+              <tbody>
+                <tr>
+                  <td>
+                    <h3>Digital Healthcare</h3>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table
+              style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              "
+            >
+              <tbody>
+                <tr>
+                  <td style="padding: 20px; width: 25%; vertical-align: middle">
+                    <img
+                      src="./images/CVGDiff.png"
+                      alt="b3do"
+                      width="160"
+                      style="border-style: none"
+                    />
+                  </td>
+                  <td width="75%" valign="middle">
+                    <a
+                      href="https://papers.miccai.org/miccai-2025/paper/0033_paper.pdf"
+                    >
+                      <span class="papertitle"
+                        >Cross-view Generalized Diffusion Model for Sparse-view
+                        CT Reconstruction</span
+                      >
+                    </a>
+                    <br />
+                    Jixiang Chen, Yiqun Lin, <strong>Yi Qin</strong>, Hualiang
+                    Wang, <u>Xiaomeng Li</u>
+                    <br />
+                    <em>MICCAI</em>, 2025
+                    <br />
+                    <a
+                      href="https://papers.miccai.org/miccai-2025/paper/0033_paper.pdf"
+                      >Code</a
+                    >
+                    <p>
+                      We introduce CvG-Diff, a fast, high-quality sparse-view CT
+                      reconstruction method that models artifacts
+                      deterministically and introduces two novel techniques—EPCT
+                      and SPDPS—to reduce errors and improve efficiency.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table
+              style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              "
+            >
+              <tbody>
+                <tr>
+                  <td style="padding: 20px; width: 25%; vertical-align: middle">
+                    <img
+                      src="./images/XMedGPT.png"
+                      alt="b3do"
+                      width="160"
+                      style="border-style: none"
+                    />
+                  </td>
+                  <td width="75%" valign="middle">
+                    <a href="https://arxiv.org/abs/2505.06898">
+                      <span class="papertitle"
+                        >AI that Reasons and Self-corrects: A New Principle for Trust-
+worthy Intelligent Systems</span
+                      >
+                    </a>
+                    <br />
+                    Honglong Yang, Shanshan Song, <strong>Yi Qin</strong>, Lehan
+                    Wang, Haonan Wang, Xinpeng Ding, Qixiang Zhang, Bodong Du,
+                    <u>Xiaomeng Li</u>
+                    <br />
+                    Arxiv
+                    <br />
+                    <a href="https://arxiv.org/abs/2505.06898">Paper</a>
+                    <p>
+                      We introduce XMedGPT, a multi-modal medical AI assistant
+                      that enhances clinical usability by combining accurate
+                      diagnostics with visual-text explainability and
+                      uncertainty quantification, enabling transparent and
+                      trustworthy decision-making.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table
+              style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              "
+            >
+              <tbody>
+                <tr>
+                  <td style="padding: 20px; width: 25%; vertical-align: middle">
+                    <img
+                      src="./images/RCMed.png"
+                      alt="b3do"
+                      width="160"
+                      style="border-style: none"
+                    />
+                  </td>
+                  <td width="75%" valign="middle">
+                    <a href="https://arxiv.org/abs/2505.03380">
+                      <span class="papertitle"
+                        >Synergistic Vision-Language Reinforcement Unlocks On-Demand Analysis across Diverse Clinical Tasks</span>
+                    </a>
+                    <br />
+                    Haonan Wang, Jiaji Mao, Lehan Wang, Qixiang Zhang, Marawan
+                    Elbatel, <strong>Yi Qin</strong>, Huijun Hu, Baoxun Li,
+                    Wenhui Deng, Weifeng Qin, Hongrui Li, Jialin Liang, Jun
+                    Shen, <u>Xiaomeng Li</u>
+                    <br />
+                    <em>Under Review</em>
+                    <br />
+                    <a href="https://arxiv.org/abs/2505.03380">Paper</a>
+                    <p>
+                      We introduce SyRe, a full-stack medical AI assistant that
+                      enhances multimodal accuracy through hierarchical
+                      vision-language grounding and a self-reinforcing
+                      correlation loop. Trained on 20M samples, it excels in 165
+                      clinical tasks across 9 modalities, achieving
+                      state-of-the-art performance and strong generalization in
+                      real-world cancer diagnosis and cell segmentation.
                     </p>
                   </td>
                 </tr>
@@ -698,7 +837,7 @@
                 </ul>
                 <tr>
                   <ul>
-                    <li>Reviewer for ICONIP2023, IEEE TNNLS, IEEE TPAMI</li>
+                    <li>Reviewer for ICONIP2023, CVPR 2026, ISBI 2026, IEEE TNNLS, IEEE TPAMI</li>
                     <li>Challenge Organizer: <a href="https://github.com/xmed-lab/TriALS">TriALS@MICCAI 2025</a></li>
                     <li>
                       TA: ELEC 4840 Artificial Intelligence for Medical Image
